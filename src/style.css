@@ -1,3 +1,45 @@
+body {
+  font-family: "Lato", sans-serif;
+}
+h1,
+h2,
+h3 {
+  color: black;
+}
 h1 {
-  color: blue;
+  display: block;
+  font-size: 38px;
+  font-weight: 700;
+  line-height: 48px;
+  margin: 20px 0 0;
+  text-align: left;
+  width: 330px;
+}
+
+ul {
+  margin: 0;
+}
+
+li {
+  color: black;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20px;
+  margin-bottom: 5px;
+  list-style: none;
+}
+
+.col-6 ul {
+  padding-left: 0;
+}
+.app {
+  max-width: 800px;
+  margin: 60px auto;
+}
+.weather-app {
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0 30px 50px rgb(65 50 100 / 8%);
+  padding: 40px;
+  color: #878787;
 }
