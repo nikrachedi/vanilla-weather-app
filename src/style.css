@@ -1,45 +1,32 @@
 body {
-  font-family: "Lato", sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
 }
-h1,
-h2,
-h3 {
-  color: black;
+.weather-app {
+  max-width: 600px;
+  margin: 30px auto;
+  padding: 20px;
+  border: 1px solid #dadde1;
+  border-radius: 5px;
 }
+
 h1 {
-  display: block;
-  font-size: 38px;
-  font-weight: 700;
-  line-height: 48px;
-  margin: 20px 0 0;
-  text-align: left;
-  width: 330px;
+  color: #878787;
+  font-size: 24px;
+  font-weight: 100;
+  line-height: 28px;
+  margin-bottom: 0;
 }
 
 ul {
   margin: 0;
+  padding: 0;
 }
-
 li {
-  color: black;
-  font-size: 16px;
-  font-weight: 500;
-  line-height: 20px;
-  margin-bottom: 5px;
   list-style: none;
-}
-
-.col-6 ul {
-  padding-left: 0;
-}
-.app {
-  max-width: 800px;
-  margin: 60px auto;
-}
-.weather-app {
-  background: #fff;
-  border-radius: 16px;
-  box-shadow: 0 30px 50px rgb(65 50 100 / 8%);
-  padding: 40px;
-  color: #878787;
+  margin: 0;
+  padding: 0;
+  color: rgb(135, 135, 135);
+  font-size: 16px;
+  font-weight: 100;
+  line-height: 19px;
 }
